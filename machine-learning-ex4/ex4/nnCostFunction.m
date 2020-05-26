@@ -147,7 +147,7 @@ Y = (1:num_labels)==y;
 delta3 = al3 - Y; 
 delta2 = (delta3 * Theta2) .* [ones(size(zl2,1),1) sigmoidGradient(zl2)]; 
 %signmodi gradient is not implement. so we move to implement it. 
-%sigmoid grad done
+%sigmoid gradient done
 
 delta2 = delta2(:,2:end); 
   
