@@ -167,7 +167,7 @@ Theta2_reg_grad = (lambda/m) * [zeros(size(Theta2, 1), 1) Theta2(:,2:end)];
 
 % finally then the Theta terms using theta gradsa re 
 Theta1_grad = Theta1_gradient + Theta1_reg_grad
-Theta2_grad = Theta1_gradient + Theta1_reg_grad
+Theta2_grad = Theta2_gradient + Theta2_reg_grad
   
   
 
