@@ -161,6 +161,9 @@ reg = (lambda/(2*m)) * (sum(sum(Theta1(:,2:end).^2)) + sum(sum(Theta2(:,2:end).^
 %So now J 
 J = J + reg
 
+%So now we calculte grads for reg
+
+
 
 
 % -------------------------------------------------------------
