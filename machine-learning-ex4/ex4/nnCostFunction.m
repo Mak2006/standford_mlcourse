@@ -151,8 +151,8 @@ delta2 = (delta3 * Theta2) .* [ones(size(zl2,1),1) sigmoidGradient(zl2)];
 
 delta2 = delta2(:,2:end); 
   
-Theta1_gradient = (1/m) * (delta2' * A1); 
-Theta2_gradient = (1/m) * (delta3' * A2); 
+Theta1_gradient = (1/m) * (delta2' * al1); 
+Theta2_gradient = (1/m) * (delta3' * al2); 
 
 %J = 0
 
