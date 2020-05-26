@@ -154,7 +154,7 @@ delta2 = delta2(:,2:end);
 Theta1_gradient = (1/m) * (delta2' * alayer1); 
 Theta2_gradient = (1/m) * (delta3' * al2); 
 
-% - Part 3 - 
+% - Part 3 -q 
 % adding the reg term 
 reg = (lambda/(2*m)) * (sum(sum(Theta1(:,2:end).^2)) + sum(sum(Theta2(:,2:end).^2))); 
 
