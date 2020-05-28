@@ -1,6 +1,6 @@
 # Chapter 1 
 (Work here and not in the ml_book repo, moved on 28 May)
-**Note : ** Please consider installing the Mathjax plugin
+**Note : ** Please consider installing the [Mathjax plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/) for Chrome browser if the Latex formulaes does not get rendered properly. 
 
 1. **What will you require**
    1. Matlab or octave
@@ -289,7 +289,7 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTM4NDE3OSwxMTg1OTY1NzE2LC0yNj
-E1Njg0MTIsLTI2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAx
-NzUsMjAxNTM1MTYzMywyMDE1MzUxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbNTA0Mjg2OTA1LDExODU5NjU3MTYsLTI2MT
+U2ODQxMiwtMjYxNTY4NDEyLDEzNzExNDAxNzUsMTM3MTE0MDE3
+NSwyMDE1MzUxNjMzLDIwMTUzNTE2MzMsLTk0MjgxODQxXX0=
 -->
