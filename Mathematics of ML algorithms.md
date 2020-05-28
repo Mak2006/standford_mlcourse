@@ -139,7 +139,7 @@ $$\frac{\partial}{\partial \theta_j} J(\theta) = \frac{1}{m}\sum\limits_{i=1}^{m
 24. If $J(\theta)$ is a polynomial function of $\theta$ then to get $\theta$ for which it is minimum is to solve the equation $\frac{dJ}{d\theta}$. However, if the function is  $J (\theta_0, \theta_1, \theta_2, ...)$ or simply put $J(\theta)$  that is it is multivariable function, then to find the minimum requires partial derivatives as below $$\frac {\partial }{\partial \theta_j} J(\theta) = 0 $$  and we have solve it. We get $j$ equations to solve and we solve it. 
 25. How to solve for multivariable function in matrix way. 
 $$\theta = (X^TX)^{-1}X^Ty$$ where X = 
-$\begin{bmatrix}1 &x_1 \\\ 1 &x_2 \\\ ...&... \\\ 1 &x_{n-1} \\\ 1 &x_n\end{bmatrix}$ and y is $\begin{bmatrix}y_1\\y_2\\...\\y_{n-1}\\y_n\\\end{bmatrix}$ 
+$\begin{bmatrix}1 &x_1 \\\ 1 &x_2 \\\ ...&... \\\ 1 &x_{n-1} \\\ 1 &x_n\end{bmatrix}$ and y is $\begin{bmatrix}y_1\\\ y_2\\\ ...\\\ y_{n-1}\\\ y_n\\\end{bmatrix}$ 
 
 **In octave this command is** - $pinv(X' *X) *X' * Y$
 
@@ -291,7 +291,7 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzAzMTUwMTQsMzIwMjkwNjc5LDEzMj
+eyJoaXN0b3J5IjpbLTE5NDU0NDk1MDIsMzIwMjkwNjc5LDEzMj
 MyOTgxNzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0
 MTIsMTM3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMj
 AxNTM1MTYzMywtOTQyODE4NDFdfQ==
