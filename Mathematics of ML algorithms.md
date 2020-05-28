@@ -196,7 +196,7 @@ $\theta_j := \theta_j - \alpha\ \left[ \left( \frac{1}{m}\ \sum_{i=1}^m (h_\thet
     The regularizatoin term is as below 
     $+\frac{\lambda}{2m}\theta_j\sum_{j=1}^n\theta^2_j$
 3.  So for a neural network  defined by 
-$h_\Theta(x)\subset R^K$ where $(h_\Theta(x) )_i = i^{th}$ output
+$h_\Theta(x)\subset R^K$ where $(h_\Theta(x) )_i=i^{th}$ output
 the cost function  becomes
 $J(\Theta) = - \frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K \left[y^{(i)}_k \log ((h_\Theta (x^{(i)}))_k) + (1 - y^{(i)}_k)\log (1 - (h_\Theta(x^{(i)}))_k)\right] + \frac{\lambda}{2m}\sum_{l=1}^{L-1} \sum_{i=1}^{s_l} \sum_{j=1}^{s_{l+1}} ( \Theta_{j,i}^{(l)})^2$
 
@@ -291,9 +291,9 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjM4MzM5ODYsLTEyMTM4MTIzMTQsMj
-k3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExODU5NjU3
-MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLDEzNzExNDAxNzUsMT
-M3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUzNTE2MzMsLTk0Mjgx
-ODQxXX0=
+eyJoaXN0b3J5IjpbMTA5MTE5MjQwOCwtMTIxMzgxMjMxNCwyOT
+c3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgxNzgsMTE4NTk2NTcx
+NiwtMjYxNTY4NDEyLC0yNjE1Njg0MTIsMTM3MTE0MDE3NSwxMz
+cxMTQwMTc1LDIwMTUzNTE2MzMsMjAxNTM1MTYzMywtOTQyODE4
+NDFdfQ==
 -->
