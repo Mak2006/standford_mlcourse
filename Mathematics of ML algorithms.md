@@ -58,7 +58,7 @@ Due to THREE things, first is NN perform better if the number of functions/neuro
 	 1. The language used, the methodology used. For example to separate voices in the cocktail party algo, it took one line of code. However to do that in Java or other languages, it would be quite difficult. 
 	 2. [W,S,V] = svd ((repmat(sum(x. *x, 1), size (x, 1), 1).*x)*x'); phew 
 14. what is the language and what is the thought 
-
+``$`a^2+b^2=c^2`$.``
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>  
 15.  **What is a cost function?**
@@ -289,6 +289,6 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTM1MTYzMywyMDE1MzUxNjMzLC05ND
+eyJoaXN0b3J5IjpbMTU4NzA3NjE5NywyMDE1MzUxNjMzLC05ND
 I4MTg0MV19
 -->
