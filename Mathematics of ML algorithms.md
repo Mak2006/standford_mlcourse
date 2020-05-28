@@ -103,7 +103,7 @@ In short this would be
 $$h = \sum_{i=0}^nx_i\theta_i$ 
 
 $\begin{pmatrix}x_0 \\\ x_1\end{pmatrix}$
-So the vector x is $\begin{bmatrix}x_0 \\\x_1 \\\x_2 \\\... \\\x_n\end{bmatrix}$ and the $\theta$ vector is $\begin{bmatrix}\theta_0\\\theta_1\\\theta_2\\...\\\theta_n\end{bmatrix}$
+So the vector x is $\begin{pmatrix}x_0 \\\x_1 \\\x_2 \\\... \\\x_n\end{pmatrix}$ and the $\theta$ vector is $\begin{bmatrix}\theta_0\\\theta_1\\\theta_2\\...\\\theta_n\end{bmatrix}$
 The dimension of x is $n+1$ and the dimension of $\theta$ is $n+1$ where $n$ is the number of training set. 
 
 So the hypothesis can be represented as $h = \sum_{i=0}^n\theta^Tx$ (note - not the other way round in which case it will give a nxn matrix)
@@ -291,8 +291,8 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg1NzM3NzM1LDMyMDI5MDY3OSwxMzIzMj
-k4MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEy
-LDEzNzExNDAxNzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMT
-UzNTE2MzMsLTk0MjgxODQxXX0=
+eyJoaXN0b3J5IjpbLTExMDM2MzExNjEsMzIwMjkwNjc5LDEzMj
+MyOTgxNzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0
+MTIsMTM3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMj
+AxNTM1MTYzMywtOTQyODE4NDFdfQ==
 -->
