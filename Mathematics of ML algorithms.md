@@ -289,10 +289,14 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Lower-order polynomials (low model complexity) have high bias and low variance. In this case, the model fits poorly consistently.
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
+
+### Prioritizing Work flow
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMj
-YxNjgzOSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUz
-NiwzMjAyOTA2NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNj
-E1Njg0MTIsLTI2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAx
-NzUsMjAxNTM1MTYzMywyMDE1MzUxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNj
+ExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLTEyMTM4MTIz
+MTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExOD
+U5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLDEzNzExNDAx
+NzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUzNTE2MzMsLT
+k0MjgxODQxXX0=
 -->
