@@ -1,6 +1,6 @@
 # Chapter 1 
 (Work here and not in the ml_book repo, moved on 28 May)
-
+**Non**
 
 1. **What will you require**
    1. Matlab or octave
@@ -289,7 +289,8 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNj
-E1Njg0MTIsMTM3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2
-MzMsMjAxNTM1MTYzMywtOTQyODE4NDFdfQ==
+eyJoaXN0b3J5IjpbLTIxMDYyMzM5ODksMTE4NTk2NTcxNiwtMj
+YxNTY4NDEyLC0yNjE1Njg0MTIsMTM3MTE0MDE3NSwxMzcxMTQw
+MTc1LDIwMTUzNTE2MzMsMjAxNTM1MTYzMywtOTQyODE4NDFdfQ
+==
 -->
