@@ -1,7 +1,5 @@
 # Chapter 1 
 
-## SCIKIT LEARN
-
 1. **What will you require**
    1. Intention to work hard and smart. 
    1. Install Python Anaconda from [here](https://www.anaconda.com/distribution/#download-section). 
@@ -289,5 +287,5 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MjgxODQxXX0=
+eyJoaXN0b3J5IjpbLTY1MzEyNDg4NCwtOTQyODE4NDFdfQ==
 -->
