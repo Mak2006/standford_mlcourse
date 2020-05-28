@@ -65,7 +65,7 @@ Due to THREE things, first is NN perform better if the number of functions/neuro
 A cost function for  $J(\theta) = \frac 1 {2m} \sum_{i=1}^m { (h_\theta (x^{(i)}) - y^{(i)})}^2$
 16.  **What are the notation being used?**  
 **Data set** Suppose we have a training data set, it is a 2 col table , with $x$ and $y$ values. each row forms a data set and there are $m$ rows.  We use this as the raw data and we want to predict for an x what will be the y. 
-**Hypothesis** - We start with a method, a model, this part ML is not finding. It is finding the co-efficients for the model. This function is called the hypothesis.  Say this if is for a hypothesis $y = \theta_0 + x\theta_1$
+**Hypothesis** - We start with a method, a model, this part ML is not finding. It is finding the co-efficients for the model. This function is called the hypothesis.  Say this if is for a hypothesis $`y = \theta_0 + x\theta_1`$
 **A training set** - The notation $(x^{(i)}, y^{(i)})$ means a the $i^{th}$ data set. 
 **Parameters** - $\theta_1$ and $\theta_0$ are called the coefficients or parameters. 
 **What is meant by** $h_\theta(x)$ -  Ofcourse this is a the hypothesis, for now it says it is a function of $x$ and $\theta$ is the paramters. *Am not sure how a function of $\alpha, \beta, \theta$ will be repesented as *. Also sometimes it is written just as $h(x)$. This is the prediction of the house price, given a $\theta_0, \theta_1 , x$
@@ -289,5 +289,6 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTM1MTYzMywtOTQyODE4NDFdfQ==
+eyJoaXN0b3J5IjpbLTc5NTI1NjA2MywyMDE1MzUxNjMzLC05ND
+I4MTg0MV19
 -->
