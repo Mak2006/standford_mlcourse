@@ -59,9 +59,9 @@ Due to THREE things, first is NN perform better if the number of functions/neuro
 	 2. [W,S,V] = svd ((repmat(sum(x. *x, 1), size (x, 1), 1).*x)*x'); phew 
 14. what is the language and what is the thought 
 
-$$x$$
 
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>  
+
 15.  **What is a cost function?**
 A cost function for  $J(\theta) = \frac 1 {2m} \sum_{i=1}^m { (h_\theta (x^{(i)}) - y^{(i)})}^2$
 16.  **What are the notation being used?**  
@@ -290,6 +290,6 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcyNDA2MDUsMjAxNTM1MTYzMywyMDE1Mz
-UxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbMTE1NjQzNjM1MSwyMDE1MzUxNjMzLDIwMT
+UzNTE2MzMsLTk0MjgxODQxXX0=
 -->
