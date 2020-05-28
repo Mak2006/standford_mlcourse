@@ -63,7 +63,7 @@ Due to THREE things, first is NN perform better if the number of functions/neuro
 <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>  
 <script type="text/javascript" async
 
-src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
 15.  **What is a cost function?**
 A cost function for  $J(\theta) = \frac 1 {2m} \sum_{i=1}^m { (h_\theta (x^{(i)}) - y^{(i)})}^2$
@@ -293,6 +293,6 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTM4NTk5MjEsMjAxNTM1MTYzMywyMD
-E1MzUxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMT
+UzNTE2MzMsLTk0MjgxODQxXX0=
 -->
