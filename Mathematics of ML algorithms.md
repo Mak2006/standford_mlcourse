@@ -197,7 +197,7 @@ $\theta_j := \theta_j - \alpha\ \left[ \left( \frac{1}{m}\ \sum_{i=1}^m (h_\thet
     $+\frac{\lambda}{2m}\theta_j\sum_{j=1}^n\theta^2_j$
 3.  So for a neural network  defined by 
 $h_\Theta(x)\subset R^K$ where $h_\Theta(x)=i^{th}$ and output the cost function  becomes
-$J(\Theta) = -\frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K \left[y^{(i)}_k \log ((h_\Theta (x^{(i)}))_k) + (1 - y^{(i)}_k)\log (1 - (h_\Theta(x^{(i)}))_k)\right] + \frac{\lambda}{2m}\sum_{l=1}^{L-1} \sum_{i=1}^{s_l} \sum_{j=1}^{s_{l+1}} ( \Theta_{j,i}^{(l)})^2$
+$J(\Theta)=-\frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K \left[y^{(i)}_k \log ((h_\Theta (x^{(i)}))_k) + (1 - y^{(i)}_k)\log (1 - (h_\Theta(x^{(i)}))_k)\right] + \frac{\lambda}{2m}\sum_{l=1}^{L-1} \sum_{i=1}^{s_l} \sum_{j=1}^{s_{l+1}} ( \Theta_{j,i}^{(l)})^2$
 
 Here 
 -   L = total number of layers in the network
@@ -288,10 +288,10 @@ Using a single hidden layer is a good starting default. You can train your neura
 ### Prioritizing Work flow
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MTM4Mjc4LC0zMDM2MjQ1MTUsMTQxMz
-cyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4
-LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMyMz
-I5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2MTU2ODQx
-MiwxMzcxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1MTYzMywyMD
-E1MzUxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbMTQ3MjIzODU0MCwtMzAzNjI0NTE1LDE0MT
+M3MjE0NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQw
+OCwtMTIxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMj
+MyOTgxNzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0
+MTIsMTM3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMj
+AxNTM1MTYzMywtOTQyODE4NDFdfQ==
 -->
