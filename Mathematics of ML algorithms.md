@@ -196,7 +196,7 @@ $\theta_j := \theta_j - \alpha\ \left[ \left( \frac{1}{m}\ \sum_{i=1}^m (h_\thet
     The regularizatoin term is as below 
     $+\frac{\lambda}{2m}\theta_j\sum_{j=1}^n\theta^2_j$
 3.  So for a neural network  defined by 
-$h_\Theta(x)\subset R^K$ where $h_\Theta(x)=i^{th}$ and output the cost function  becomes
+$h_\Theta(x)\subset R^K$ where $h_\Theta(x)_i=i^{th}$ and output the cost function  becomes
 $J(\Theta)=-\frac{1}{m} \sum_{i=1}^m \sum_{k=1}^K\left[y^{(i)}_k \log ((h_\Theta (x^{(i)}))_k)+(1-y^{(i)}_k)\log (1 - (h_\Theta(x^{(i)}))_k)\right]+\frac{\lambda}{2m}\sum_{l=1}^{L-1} \sum_{i=1}^{s_l} \sum_{j=1}^{s_{l+1}} ( \Theta_{j,i}^{(l)})^2$
 
 Here 
@@ -288,7 +288,7 @@ Using a single hidden layer is a good starting default. You can train your neura
 ### Prioritizing Work flow
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzY0NDk3MjQsLTMwMzYyNDUxNSwxND
+eyJoaXN0b3J5IjpbLTE1ODY2MjUyMzQsLTMwMzYyNDUxNSwxND
 EzNzIxNDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0
 MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMz
 IzMjk4MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4
