@@ -53,6 +53,13 @@ error_val   = zeros(m, 1);
 
 % ---------------------- Sample Solution ----------------------
 
+%We loop over the entire set
+for i = 1:m
+      X_train = X(1:i,:);
+      y_train = y(1:i);
+      % we obtain the theta from the trainLinearReg method
+      theta = trainLinearReg(X_train, y_train, lambda);
+end
 
 
 
