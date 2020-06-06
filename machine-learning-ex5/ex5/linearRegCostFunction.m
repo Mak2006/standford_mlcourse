@@ -45,7 +45,7 @@ J = (1/( 2*m)) * sum((X*theta - y ).^2) + (lambda/(2*m))* sum((theta(2:end).^2))
 %j(?)=?1/m[?mi=1y(i)logh?(x(i))+(1?y(i))log(1?h?(x(i)))]
 % great octave editor can show the chars 
 h = X*theta
-g  = (-1/m) * sum(y*log(h) + (1 - y)* log(1 - h))
+g  = (-1/m) * sum(y'*log(h) + (1 - y')* log(1 - h))
 %grad = grad(:);
 
 end
