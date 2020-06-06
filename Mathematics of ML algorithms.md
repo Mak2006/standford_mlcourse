@@ -297,7 +297,7 @@ Prioritizing workflow heuritiscs
  - develop algorithms
  - Start with simple algo and test it on cross validation data and learn on how it is doing .  Try to figure out if the algo is suffereing from high bias or high variance. 
  - Check the learning curve. 
- - 
+ - Run the first algo, check the errors (traing set l
 
 Building spam classifier 
 
@@ -305,7 +305,7 @@ Building spam classifier
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDgyMjA4MywxMjA3OTk3NzUxLDk1NT
+eyJoaXN0b3J5IjpbLTUzNzgxNDE3NywxMjA3OTk3NzUxLDk1NT
 g1NDM1NiwtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0MTM3MjE0
 NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQwOCwtMT
 IxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgx
