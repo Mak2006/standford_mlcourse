@@ -303,14 +303,14 @@ Prioritizing workflow heuritiscs
 Building spam classifier 
 
  - Honeypot project -  emails addresses created and distributed publicly, with the intention that it gets into spams email list; to accumulate spam emails and use them as training data ! 
- - 
+ -  Error check
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ0NTExOTAsMTIwNzk5Nzc1MSw5NT
-U4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIx
-NDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLT
-EyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4
-MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLD
-EzNzExNDAxNzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUz
-NTE2MzNdfQ==
+eyJoaXN0b3J5IjpbMzAzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMD
+c5OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1
+MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMD
+kxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2
+NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLT
+I2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1
+MTYzM119
 -->
