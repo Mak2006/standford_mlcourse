@@ -288,13 +288,13 @@ Using a single hidden layer is a good starting default. You can train your neura
 -   In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
 
 ### Prioritizing Work flow
-
+B
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2Nz
-Y0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5
-NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLTEyMTM4MTIzMTQsMj
-k3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExODU5NjU3
-MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLDEzNzExNDAxNzUsMT
-M3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUzNTE2MzMsLTk0Mjgx
-ODQxXX0=
+eyJoaXN0b3J5IjpbNjQ3NzMwNDI3LDEyMDc5OTc3NTEsOTU1OD
+U0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0
+OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMj
+EzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMyMzI5ODE3
+OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2MTU2ODQxMiwxMz
+cxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1MTYzMywyMDE1MzUx
+NjMzXX0=
 -->
