@@ -304,13 +304,15 @@ Building spam classifier
 
  - Honeypot project -  emails addresses created and distributed publicly, with the intention that it gets into spams email list; to accumulate spam emails and use them as training data ! 
  -  Error check
+Precision vs Recall
+![](https://i.imgur.com/3K7p0Ym.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMD
-c5OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1
-MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMD
-kxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2
-NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLT
-I2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1
-MTYzM119
+eyJoaXN0b3J5IjpbLTE1MDIwMjY0NzYsMzAzNDk3MDUwLC0yMT
+E0NDUxMTkwLDEyMDc5OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5
+NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLD
+gzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4
+NTUzNiwzMjAyOTA2NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC
+0yNjE1Njg0MTIsLTI2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzEx
+NDAxNzVdfQ==
 -->
