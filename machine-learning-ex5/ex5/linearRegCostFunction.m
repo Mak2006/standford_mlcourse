@@ -41,11 +41,11 @@ J = (1/( 2*m)) * sum((X*theta - y ).^2) + (lambda/(2*m))* sum((theta(2:end).^2))
 
 % Moving on the grad
 % =========================================================================
-% as per earlier notes, we can represent bot the = 0 case and >= 1 case using the log functino
-%j(?)=?1/m[?mi=1y(i)logh?(x(i))+(1?y(i))log(1?h?(x(i)))]
-% great octave editor can show the chars 
+# This is linear regression
+# we have from ex 3 lrcostfunction implemented eariler
+# grad = (X'*(h - y)+lambda*theta1)/m;
 h = X*theta
-g  = (-1/m) * sum(y'*log(h) + (1 - y')* log(1 - h))
+grad = X'*(h-y) / m;
+grad(2:end) = grad(2:end) + lambda/m * theta(2:end);
 %grad = grad(:);
-
 end
