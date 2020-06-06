@@ -19,6 +19,10 @@ X_poly = zeros(numel(X), p);
 %column of X contains the values of X to the p-th power.
 %this can be done with a for loop, and we want to do the vectorized method
 X_poly = X
+for i = 1:p
+  #We set it to x first
+  X_poly(:,i) = X ;
+endfor
 
 
 
