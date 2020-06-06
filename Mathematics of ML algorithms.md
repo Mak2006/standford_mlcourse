@@ -292,7 +292,9 @@ Prioritizing workflow heuritiscs
 
  - Use gut feeling but diligently. 
  - Focus on areas that gives most benefits. 
- - 
+ - collect lots of data - doesn't always work
+ - develop sophisticated features
+ - develop algorithms
 
 Building spam classifier 
 
@@ -300,11 +302,11 @@ Building spam classifier
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc5MDQwMzg0LDEyMDc5OTc3NTEsOTU1OD
-U0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0
-OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMj
-EzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMyMzI5ODE3
-OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2MTU2ODQxMiwxMz
-cxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1MTYzMywyMDE1MzUx
-NjMzXX0=
+eyJoaXN0b3J5IjpbLTE0MTUxNzM0OTksMTIwNzk5Nzc1MSw5NT
+U4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIx
+NDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLT
+EyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4
+MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLD
+EzNzExNDAxNzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUz
+NTE2MzNdfQ==
 -->
