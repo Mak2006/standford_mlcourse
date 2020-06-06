@@ -44,7 +44,7 @@ J = (1/( 2*m)) * sum((X*theta - y ).^2) + (lambda/(2*m))* sum((theta(2:end).^2))
 % as per earlier notes, we can represent bot the = 0 case and >= 1 case using the log functino
 %j(?)=?1/m[?mi=1y(i)logh?(x(i))+(1?y(i))log(1?h?(x(i)))]
 % great octave editor can show the chars 
-h = x*theta
+h = X*theta
 g  = (-1/m) * sum(ylog(h) + (1 - y)* log(1 - h))
 %grad = grad(:);
 
