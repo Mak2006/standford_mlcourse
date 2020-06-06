@@ -37,7 +37,7 @@ ans =
 >>
 %}
 
-J = (1/ 2*m) * (X*theta - y )
+J = (1/ 2*m) * sum(X*theta - y )**2
 
  
 
