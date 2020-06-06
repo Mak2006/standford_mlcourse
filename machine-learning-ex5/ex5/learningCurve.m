@@ -59,6 +59,8 @@ for i = 1:m
       y_train = y(1:i);
       % we obtain the theta from the trainLinearReg method
       theta = trainLinearReg(X_train, y_train, lambda);
+      % now set lambda to zero
+      error_train(i) = linearRegCostFunction(X_train, y_train, theta, 0);
 end
 
 
