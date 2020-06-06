@@ -15,8 +15,10 @@ X_poly = zeros(numel(X), p);
 %
 % 
 
-
-
+%Given a vector X, return a matrix X_poly where the p-th 
+%column of X contains the values of X to the p-th power.
+%this can be done with a for loop, and we want to do the vectorized method
+X_poly = X
 
 
 
