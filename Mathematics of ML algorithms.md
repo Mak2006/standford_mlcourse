@@ -191,7 +191,7 @@ $\theta_j := \theta_j - \alpha\ \left[ \left( \frac{1}{m}\ \sum_{i=1}^m (h_\thet
 	4. the dimesion of $\theta$ - Example: If layer 1 has 2 input nodes and layer 2 has 4 activation nodes. Dimension of Θ(1) is going to be 4×3 where sj=2s_j = 2sj​=2 and sj+1=4s_{j+1} = 4sj+1​=4, so sj+1×(sj+1)=4×3s_{j+1} \times (s_j + 1) = 4 \times 3sj+1​×(sj​+1)=4×3.
 38. 
 
-# Week 5 - 
+## Week 5 - 
 1. We are trying to do a multi category classification problem using a NN.  
 2. We know the Logistics regression cost function as 
     $j(\theta) = - 1/m[\sum_{i=1}^my^{(i)}logh_\theta(x^{(i)}) + (1 - y^{(i)}) log(1 - h_\theta(x^{(i)}))] + regularization term$
@@ -290,10 +290,11 @@ Using a single hidden layer is a good starting default. You can train your neura
 ### Prioritizing Work flow
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMD
-M2MjQ1MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgz
-OSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMj
-AyOTA2NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0
-MTIsLTI2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAxNzUsMj
-AxNTM1MTYzMywyMDE1MzUxNjMzLC05NDI4MTg0MV19
+eyJoaXN0b3J5IjpbMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2Nz
+Y0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5
+NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLTEyMTM4MTIzMTQsMj
+k3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExODU5NjU3
+MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLDEzNzExNDAxNzUsMT
+M3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUzNTE2MzMsLTk0Mjgx
+ODQxXX0=
 -->
