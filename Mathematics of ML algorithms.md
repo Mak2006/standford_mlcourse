@@ -290,15 +290,15 @@ Using a single hidden layer is a good starting default. You can train your neura
 ### Prioritizing Work flow
 Building spam classifier 
 
- - Honeypot project -  emails addresses created and distributed publicly, with the intention to accumulate spam emails and use them as training data ! 
+ - Honeypot project -  emails addresses created and distributed publicly, with the intention that it gets into spams email list; to accumulate spam emails and use them as training data ! 
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTcyNzE4NzksMTIwNzk5Nzc1MSw5NT
-U4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIx
-NDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLT
-EyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4
-MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLD
-EzNzExNDAxNzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUz
-NTE2MzNdfQ==
+eyJoaXN0b3J5IjpbMTU2NTY5ODcwMywxMjA3OTk3NzUxLDk1NT
+g1NDM1NiwtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0MTM3MjE0
+NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQwOCwtMT
+IxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgx
+NzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0MTIsMT
+M3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMjAxNTM1
+MTYzM119
 -->
