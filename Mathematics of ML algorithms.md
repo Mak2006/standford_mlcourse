@@ -295,6 +295,9 @@ Prioritizing workflow heuritiscs
  - collect lots of data - doesn't always work
  - develop sophisticated features
  - develop algorithms
+ - Start with simple algo and test it on cross validation data and learn on how it is doing .  Try to figure out if the algo is suffereing from high bias or high variance. 
+ - Check the learning curve. 
+ - 
 
 Building spam classifier 
 
@@ -302,11 +305,11 @@ Building spam classifier
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTUxNzM0OTksMTIwNzk5Nzc1MSw5NT
-U4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNSwxNDEzNzIx
-NDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTExOTI0MDgsLT
-EyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OSwxMzIzMjk4
-MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYxNTY4NDEyLD
-EzNzExNDAxNzUsMTM3MTE0MDE3NSwyMDE1MzUxNjMzLDIwMTUz
-NTE2MzNdfQ==
+eyJoaXN0b3J5IjpbLTY3NDgyMjA4MywxMjA3OTk3NzUxLDk1NT
+g1NDM1NiwtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0MTM3MjE0
+NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQwOCwtMT
+IxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgx
+NzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0MTIsMT
+M3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMjAxNTM1
+MTYzM119
 -->
