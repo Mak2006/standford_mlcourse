@@ -1,5 +1,5 @@
 # Stanford ML course
-Prof. Andrew Ng
+## Prof. Andrew Ng
 Notes from the lectures. 
 
 **Notes**  - Please consider installing the [Mathjax plugin](https://chrome.google.com/webstore/detail/mathjax-plugin-for-github/ioemnmodlmafdkllaclgeombjnmnbima/) for Chrome browser if the Latex formulaes does not get rendered properly. 
@@ -290,10 +290,10 @@ Using a single hidden layer is a good starting default. You can train your neura
 ### Prioritizing Work flow
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTUxNDM2MCwtMTY3NjQ0OTcyNCwtMz
-AzNjI0NTE1LDE0MTM3MjE0NDksMTA2MTE4OTk3MSw4MzI2MTY4
-MzksMTA5MTE5MjQwOCwtMTIxMzgxMjMxNCwyOTc3ODU1MzYsMz
-IwMjkwNjc5LDEzMjMyOTgxNzgsMTE4NTk2NTcxNiwtMjYxNTY4
-NDEyLC0yNjE1Njg0MTIsMTM3MTE0MDE3NSwxMzcxMTQwMTc1LD
-IwMTUzNTE2MzMsMjAxNTM1MTYzMywtOTQyODE4NDFdfQ==
+eyJoaXN0b3J5IjpbOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMD
+M2MjQ1MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgz
+OSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMj
+AyOTA2NzksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0
+MTIsLTI2MTU2ODQxMiwxMzcxMTQwMTc1LDEzNzExNDAxNzUsMj
+AxNTM1MTYzMywyMDE1MzUxNjMzLC05NDI4MTg0MV19
 -->
