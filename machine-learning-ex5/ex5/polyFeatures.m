@@ -21,7 +21,7 @@ X_poly = zeros(numel(X), p);
 X_poly = X
 for i = 1:p
   #We set it to x first
-  X_poly(:,i) = X.^i ;
+  X_poly(:,i) = X.^i  ;
 endfor
 
 
