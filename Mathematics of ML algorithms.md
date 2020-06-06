@@ -297,19 +297,19 @@ Prioritizing workflow heuritiscs
  - develop algorithms
  - Start with simple algo and test it on cross validation data and learn on how it is doing .  Try to figure out if the algo is suffereing from high bias or high variance. 
  - Check the learning curve. 
- - Run the first algo, check the errors (traing set l
-
+ - Run the first algo, check the errors (traing set categorized incorrectly and find what new features would have helped and incorporate them in the algo - **PDCA like algorithm** 
+- 
 Building spam classifier 
 
  - Honeypot project -  emails addresses created and distributed publicly, with the intention that it gets into spams email list; to accumulate spam emails and use them as training data ! 
  - 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNzgxNDE3NywxMjA3OTk3NzUxLDk1NT
-g1NDM1NiwtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0MTM3MjE0
-NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQwOCwtMT
-IxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgx
-NzgsMTE4NTk2NTcxNiwtMjYxNTY4NDEyLC0yNjE1Njg0MTIsMT
-M3MTE0MDE3NSwxMzcxMTQwMTc1LDIwMTUzNTE2MzMsMjAxNTM1
-MTYzM119
+eyJoaXN0b3J5IjpbNDQxMzMxMzA0LDEyMDc5OTc3NTEsOTU1OD
+U0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0
+OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMj
+EzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMyMzI5ODE3
+OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2MTU2ODQxMiwxMz
+cxMTQwMTc1LDEzNzExNDAxNzUsMjAxNTM1MTYzMywyMDE1MzUx
+NjMzXX0=
 -->
