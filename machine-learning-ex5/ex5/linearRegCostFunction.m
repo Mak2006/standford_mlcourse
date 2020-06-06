@@ -22,6 +22,22 @@ grad = zeros(size(theta));
 
 % Setting J to the cost and 
 % grad to the gradient 
+%  We start with J, from prev assignment we have 
+% j = 1/2m sum (h theta x  - y) squared + reg parameter
+%{
+>> size(X), size(y), size(theta), size(lambda)
+ans = 
+   12    1
+ans =
+   12    1
+ans =
+   9   1
+ans =
+   1   1
+>>
+%}
+
+J = 1/ 2m * (X*theta' )
 
 
 
