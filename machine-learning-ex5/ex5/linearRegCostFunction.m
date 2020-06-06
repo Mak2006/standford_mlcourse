@@ -36,8 +36,8 @@ ans =
    1   1
 >>
 %}
-
-J = (1/ 2*m) * sum(X*theta - y )**2
+% the reg parameter is required 
+J = (1/ 2*m) * sum(X*theta - y )**2 + (lambda/2*m)* sum(theta(2:end)**2)
 
  
 
