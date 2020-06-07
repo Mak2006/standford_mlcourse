@@ -23,6 +23,11 @@ idx = zeros(size(X,1), 1);
 %loop over every example
 for i = 1:size(X,1)
 	temp = zeros(K, 1)
+ 	idx(i)=1;
+	for j = 1:K
+    
+  endfor
+  
 end
 
 
