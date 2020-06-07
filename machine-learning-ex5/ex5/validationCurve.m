@@ -43,7 +43,7 @@ for i = 1:length(lambda_vec)
   lambda = lambda_vec(i);
   % this is similar to learningCurve.m
   theta = trainLinearReg(X(1:i,:), y(1:i), lambda);
-  
+   
 end
 
 
