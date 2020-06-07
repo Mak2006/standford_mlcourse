@@ -20,7 +20,10 @@ idx = zeros(size(X,1), 1);
 %
 % Note: You can use a for-loop over the examples to compute this.
 %
-
+%loop over every example
+for i = 1:size(X,1)
+	temp = zeros(K, 1)
+end
 
 
 
