@@ -42,8 +42,12 @@ error_val = zeros(length(lambda_vec), 1);
 for i = 1:length(lambda_vec)
   lambda = lambda_vec(i);
   % this is similar to learningCurve.m
-  theta = trainLinearReg(X(1:i,:), y(1:i), lambda);
-   
+  x_train = X(1:i,:);
+  y_train = y(1:i);
+  theta = trainLinearReg(x_train, y_train, lambda);
+  [error_train(i), grad_train] = linearRegCostFunction(x_train, y_train, theta, 0);
+  
+  
 end
 
 
