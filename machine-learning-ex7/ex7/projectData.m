@@ -18,7 +18,7 @@ Z = zeros(size(X, 1), K);
 %                    projection_k = x' * U(:, k);
 %
 %for all rows :
-x = X(:, 1:K);
+x = U(:, 1:K);
 Z = x * U;
 %
 
