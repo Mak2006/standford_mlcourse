@@ -22,7 +22,7 @@ S = zeros(n);
 
 %Calculating the covariance matrix
 % cov is 1/m * (X transpose * x)
-cov = (1/m)*(X'*X)
+cov = (1/m)*(X'*X) 
 
 
 
