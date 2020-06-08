@@ -19,7 +19,7 @@ Z = zeros(size(X, 1), K);
 %
 %for all rows :
 x = X(:, 1:K);
-Z = x * U();
+Z = x * U;
 %
 
 
