@@ -34,7 +34,7 @@ for i = 1:K
   %fullsum 
   centroids(i,:) = sum(X(points, :))
   len = length(points)
-  centroids = centroids./len
+  centroids(i,:) = centroids(i,:)./len
 endfor
 
 
