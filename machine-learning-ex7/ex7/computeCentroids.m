@@ -33,6 +33,8 @@ for i = 1:K
   sumtillxindices = sum(X(points, :))
   %fullsum 
   centroids(i) = sum(X(points))
+  len = length(points)
+  
 endfor
 
 
