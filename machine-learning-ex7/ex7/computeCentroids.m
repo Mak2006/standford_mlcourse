@@ -27,6 +27,7 @@ centroids = zeros(K, n);
 %
 
 %Loop over the cetriods
+% first get a for implementation and then vectorize
 for i = 1:K
   points = find(idx==i);
   sumtillxindices = sum(X(points, :))
