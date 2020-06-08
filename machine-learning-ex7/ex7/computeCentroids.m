@@ -27,8 +27,8 @@ centroids = zeros(K, n);
 %
 
 %Loop over the cetriods
-for k = 1:K
-  
+for i = 1:K
+  points = find(idx==i);
 endfor
 
 
