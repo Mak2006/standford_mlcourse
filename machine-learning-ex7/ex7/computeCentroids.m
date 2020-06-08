@@ -29,6 +29,8 @@ centroids = zeros(K, n);
 %Loop over the cetriods
 for i = 1:K
   points = find(idx==i);
+  sumtillxindices = sum(X(points, :))
+  %fullsum 
 endfor
 
 
