@@ -25,5 +25,6 @@ X_rec = zeros(size(Z, 1), size(U, 1));
 
 % =============================================================
 % this is simlar to the project data.m
-
+x = U(:, 1:K);
+Z = X * x;
 end
