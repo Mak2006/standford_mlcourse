@@ -32,6 +32,7 @@ for i = 1:K
   points = find(idx==i);
   sumtillxindices = sum(X(points, :))
   %fullsum 
+  centroids(i) = sum(X(points))
 endfor
 
 
