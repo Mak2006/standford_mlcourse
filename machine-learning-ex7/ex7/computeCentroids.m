@@ -30,7 +30,7 @@ centroids = zeros(K, n);
 % first get a for implementation and then vectorize
 for i = 1:K
   points = find(idx==i);
-  sumtillxindices = sum(X(points, :))
+  %sumtillxindices = sum(X(points, :))
   %fullsum 
   centroids(i) = sum(X(points))
   len = length(points)
