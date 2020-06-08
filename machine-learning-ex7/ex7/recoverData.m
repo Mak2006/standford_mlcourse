@@ -28,5 +28,6 @@ X_rec = zeros(size(Z, 1), size(U, 1));
 x = U(:, 1:K);
 %Z = X * x;
 % wer requier the x from z
-%X = Z * x;
+% so far so good. the x has to be inversed to conform to mul
+%X = Z * x';
 end
