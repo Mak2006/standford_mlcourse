@@ -32,9 +32,9 @@ for i = 1:K
   points = find(idx==i);
   %sumtillxindices = sum(X(points, :))
   %fullsum 
-  centroids(i) = sum(X(points))
-  len = length(points)
-  centroids(i) = centroids(i)./len
+  centroids(i) = sum(X(points))./length(points);
+  %len = length(points)
+ % centroids(i) = centroids(i)./len
 endfor
 
 
