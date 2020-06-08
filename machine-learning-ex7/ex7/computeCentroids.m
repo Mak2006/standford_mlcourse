@@ -26,7 +26,10 @@ centroids = zeros(K, n);
 % Note: You can use a for-loop over the centroids to compute this.
 %
 
-
+%Loop over the cetriods
+for k = 1:K
+  
+endfor
 
 
 
