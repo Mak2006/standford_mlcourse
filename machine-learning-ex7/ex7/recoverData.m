@@ -29,5 +29,5 @@ x = U(:, 1:K);
 %Z = X * x;
 % wer requier the x from z
 % so far so good. the x has to be inversed to conform to mul
-%X = Z * x';
+X = Z * x';
 end
