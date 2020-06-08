@@ -28,5 +28,5 @@ X_rec = zeros(size(Z, 1), size(U, 1));
 x = U(:, 1:K);
 %Z = X * x;
 % wer requier the x from z
-X = Z * x;
+%X = Z * x;
 end
