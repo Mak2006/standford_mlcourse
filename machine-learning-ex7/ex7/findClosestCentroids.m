@@ -19,7 +19,7 @@ idx = zeros(size(X,1), 1);
 %               range 1..K
 %
 % Note: You can use a for-loop over the examples to compute this.
-%
+%1
 %loop over every example
 for i = 1:size(X,1)
   temp = zeros(K, 1)
