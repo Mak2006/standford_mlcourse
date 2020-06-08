@@ -20,6 +20,10 @@ S = zeros(n);
 %       number of examples).
 %
 
+%Calculating the covariance matrix
+% cov is 1/m * (X transpose * x)
+cov = (1/m)(X'*X)
+
 
 
 
