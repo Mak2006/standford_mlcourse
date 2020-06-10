@@ -318,7 +318,7 @@ Accuracy = TP+TN/TP+FP+FN+TN
 
 Precision = TP/TP+FP
 
-**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. A recall of above 0.5 is considered good.
+**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class. A recall of above 0.5 is considered good.
 
 Recall = TP/TP+FN
 
@@ -326,11 +326,11 @@ Recall = TP/TP+FN
 
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODg2OTA3MCwtMTI3NjU5MzM5NSwtMT
-ExMTA5NzA5OSwtMTUwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0
-NTExOTAsMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3Mj
-QsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMy
-NjE2ODM5LDEwOTExOTI0MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NT
-M2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExODU5NjU3MTYsLTI2
-MTU2ODQxMl19
+eyJoaXN0b3J5IjpbLTk4Mjc2NTI4MiwtOTk4ODY5MDcwLC0xMj
+c2NTkzMzk1LC0xMTExMDk3MDk5LC0xNTAyMDI2NDc2LDMwMzQ5
+NzA1MCwtMjExNDQ1MTE5MCwxMjA3OTk3NzUxLDk1NTg1NDM1Ni
+wtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0MTM3MjE0NDksMTA2
+MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5MjQwOCwtMTIxMzgxMj
+MxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEzMjMyOTgxNzgsMTE4
+NTk2NTcxNl19
 -->
