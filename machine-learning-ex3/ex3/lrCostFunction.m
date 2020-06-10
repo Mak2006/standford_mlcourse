@@ -55,7 +55,7 @@ J = sum(-y.*log(h) - (1-y).*(log(1 - h))) +(lambda/(2))*theta1'*theta1;
 J = J./m
 
 
- 
+
 % grad = theta - sum (h(x) - y)x
 #grad= X'*(h-y) + lambda* theta
 grad = (X'*(h - y)+lambda*theta1)/m;
