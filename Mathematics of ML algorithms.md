@@ -312,18 +312,18 @@ Understanding of Recall, Precision and Accuracy - [Good description and source](
 
 Accuracy = TP+TN/TP+FP+FN+TN
 
-T
+**The whole set** = TP + FP +FN+TN = Total number of observation. 
 
-**Precision**  - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.
+**Precision**  - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations.
 
 Precision = TP/TP+FP
 
-**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? We have got recall of 0.631 which is good for this model as it’s above 0.5.
+**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. A recall of above 0.5.
 
 Recall = TP/TP+FN
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMTI0NDA0MiwtMTI3NjU5MzM5NSwtMT
+eyJoaXN0b3J5IjpbMTM4Njc2MjYwMywtMTI3NjU5MzM5NSwtMT
 ExMTA5NzA5OSwtMTUwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0
 NTExOTAsMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3Mj
 QsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMy
