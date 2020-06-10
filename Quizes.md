@@ -20,10 +20,11 @@ b - If you always predict non-spam (outputy=0y=0), your classifier will have a r
 c - If you always predict non-spam (outputy=0y=0), your classifier will have an accuracy of99%.
 d - If you always predict spam (output  y=1y=1),your classifier will have a recall of 100% and precisionof 1%.
 
-c and d
-Calculations 
+b,c and d, fantastic question 
+![Calculations ](https://i.imgur.com/oB1baQY.png)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDUzNzY4NSw1OTY5NzEyNzQsLTEyMz
-MyNzkzODYsLTEyNjY3MDI5NzcsLTQyMTg2MzQ1NF19
+eyJoaXN0b3J5IjpbMTkzMTA3NTAyOCwxNTI0NTM3Njg1LDU5Nj
+k3MTI3NCwtMTIzMzI3OTM4NiwtMTI2NjcwMjk3NywtNDIxODYz
+NDU0XX0=
 -->
