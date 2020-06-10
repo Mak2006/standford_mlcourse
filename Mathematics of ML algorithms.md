@@ -307,10 +307,12 @@ Building spam classifier
 Precision vs Recall
 ![](https://i.imgur.com/3K7p0Ym.png)
 
-Understanding of Recall, Precision and Accuracy - ![good description]([https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.)) 
+Understanding of Recall, Precision and Accuracy - [Good description and source]([https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.)) 
 **Accuracy** - Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
-Large data sets
+
 Accuracy = TP+TN/TP+FP+FN+TN
+
+T
 
 **Precision**  - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.
 
@@ -321,11 +323,11 @@ Precision = TP/TP+FP
 Recall = TP/TP+FN
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzY1OTMzOTUsLTExMTEwOTcwOTksLT
-E1MDIwMjY0NzYsMzAzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMDc5
-OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MT
-UsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkx
-MTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2Nz
-ksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2
+eyJoaXN0b3J5IjpbLTczMTI0NDA0MiwtMTI3NjU5MzM5NSwtMT
+ExMTA5NzA5OSwtMTUwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0
+NTExOTAsMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3Mj
+QsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMy
+NjE2ODM5LDEwOTExOTI0MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NT
+M2LDMyMDI5MDY3OSwxMzIzMjk4MTc4LDExODU5NjU3MTYsLTI2
 MTU2ODQxMl19
 -->
