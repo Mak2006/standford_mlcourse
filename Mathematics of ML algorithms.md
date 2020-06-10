@@ -310,15 +310,22 @@ Precision vs Recall
 Understanding of Recall, Precision and Accuracy - ![good description]([https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.)) 
 **Accuracy** - Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
 Large data sets
+Accuracy = TP+TN/TP+FP+FN+TN
 
+**Precision**  - Precision is the ratio of correctly predicted positive observations to the total predicted positive observations. The question that this metric answer is of all passengers that labeled as survived, how many actually survived? High precision relates to the low false positive rate. We have got 0.788 precision which is pretty good.
 
+Precision = TP/TP+FP
+
+**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. The question recall answers is: Of all the passengers that truly survived, how many did we label? We have got recall of 0.631 which is good for this model as it’s above 0.5.
+
+Recall = TP/TP+FN
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1ODg2MjYwOSwtMTExMTA5NzA5OSwtMT
-UwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0NTExOTAsMTIwNzk5
-Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNS
-wxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTEx
-OTI0MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OS
-wxMzIzMjk4MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYx
-NTY4NDEyXX0=
+eyJoaXN0b3J5IjpbLTEyNzY1OTMzOTUsLTExMTEwOTcwOTksLT
+E1MDIwMjY0NzYsMzAzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMDc5
+OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MT
+UsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkx
+MTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2Nz
+ksMTMyMzI5ODE3OCwxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2
+MTU2ODQxMl19
 -->
