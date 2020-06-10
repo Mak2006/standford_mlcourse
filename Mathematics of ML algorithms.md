@@ -318,12 +318,15 @@ Accuracy = TP+TN/TP+FP+FN+TN
 
 Precision = TP/TP+FP
 
-**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. A recall of above 0.5.
+**Recall** (Sensitivity) - Recall is the ratio of correctly predicted positive observations to the all observations in actual class - yes. A recall of above 0.5 is considered good.
 
 Recall = TP/TP+FN
+
+**Large data sets**
+
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4Njc2MjYwMywtMTI3NjU5MzM5NSwtMT
+eyJoaXN0b3J5IjpbLTk5ODg2OTA3MCwtMTI3NjU5MzM5NSwtMT
 ExMTA5NzA5OSwtMTUwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0
 NTExOTAsMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3Mj
 QsLTMwMzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMy
