@@ -307,14 +307,18 @@ Building spam classifier
 Precision vs Recall
 ![](https://i.imgur.com/3K7p0Ym.png)
 
+Understanding of Recall, Precision and Accuracy - ![good description]([https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/#:~:text=Precision%20%2D%20Precision%20is%20the%20ratio,the%20total%20predicted%20positive%20observations.&text=F1%20score%20%2D%20F1%20Score%20is,and%20false%20negatives%20into%20account.)) 
+**Accuracy** - Accuracy is the most intuitive performance measure and it is simply a ratio of correctly predicted observation to the total observations.
 Large data sets
+
+
 ![](https://i.imgur.com/KiRXsaL.png)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTEwOTcwOTksLTE1MDIwMjY0NzYsMz
-AzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMDc5OTc3NTEsOTU1ODU0
-MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0OS
-wxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMjEz
-ODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMyMzI5ODE3OC
-wxMTg1OTY1NzE2LC0yNjE1Njg0MTIsLTI2MTU2ODQxMiwxMzcx
-MTQwMTc1XX0=
+eyJoaXN0b3J5IjpbMTg1ODg2MjYwOSwtMTExMTA5NzA5OSwtMT
+UwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0NTExOTAsMTIwNzk5
+Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3MjQsLTMwMzYyNDUxNS
+wxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMyNjE2ODM5LDEwOTEx
+OTI0MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NTM2LDMyMDI5MDY3OS
+wxMzIzMjk4MTc4LDExODU5NjU3MTYsLTI2MTU2ODQxMiwtMjYx
+NTY4NDEyXX0=
 -->
