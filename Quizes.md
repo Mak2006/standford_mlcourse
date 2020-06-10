@@ -9,8 +9,8 @@ accuracy =  85 + 10/1000 = 0.095
 precision = (85)/(85 + 15)  = 0.85
 recall 	  = (85 )/(85+890)  = 0.087
 F1 = (2 * precision * recall) / (precision + recall)
-   = 2*0.85*0.087/(0.85 + 0.087)= 0.1747
+   = 2*0.85*0.087/(0.85 + 0.087)= 0.1578
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzMyNzkzODYsLTEyNjY3MDI5NzcsLT
-QyMTg2MzQ1NF19
+eyJoaXN0b3J5IjpbNTk2OTcxMjc0LC0xMjMzMjc5Mzg2LC0xMj
+Y2NzAyOTc3LC00MjE4NjM0NTRdfQ==
 -->
