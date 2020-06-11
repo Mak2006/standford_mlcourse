@@ -16,7 +16,10 @@ sim = 0;
 %
 %
 % we compute the sizes of x1, x2, sigma
-
+%>> size(x1)       1   3
+%>> size (x2)      1   3
+%>> size (sigma)   1   1
+%
 
 
 
