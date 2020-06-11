@@ -330,16 +330,17 @@ Recall = TP/TP+FN
 
 ## Week 7 notes
 **SVM** - 
-More powerful way of supervised learning algos. 
+More powerful way of supervised learning algos.  We know the sigmoid function in the logistic regression.  
+!
 **Large margin classification**
 
 ## Week 8 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg2Nzk0NDM5LC0xNjMyNzUxMzM0LC05OD
-I3NjUyODIsLTk5ODg2OTA3MCwtMTI3NjU5MzM5NSwtMTExMTA5
-NzA5OSwtMTUwMjAyNjQ3NiwzMDM0OTcwNTAsLTIxMTQ0NTExOT
-AsMTIwNzk5Nzc1MSw5NTU4NTQzNTYsLTE2NzY0NDk3MjQsLTMw
-MzYyNDUxNSwxNDEzNzIxNDQ5LDEwNjExODk5NzEsODMyNjE2OD
-M5LDEwOTExOTI0MDgsLTEyMTM4MTIzMTQsMjk3Nzg1NTM2LDMy
-MDI5MDY3OV19
+eyJoaXN0b3J5IjpbMTc1NzA2MTYzNSwtMTYzMjc1MTMzNCwtOT
+gyNzY1MjgyLC05OTg4NjkwNzAsLTEyNzY1OTMzOTUsLTExMTEw
+OTcwOTksLTE1MDIwMjY0NzYsMzAzNDk3MDUwLC0yMTE0NDUxMT
+kwLDEyMDc5OTc3NTEsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0z
+MDM2MjQ1MTUsMTQxMzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNj
+gzOSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwz
+MjAyOTA2NzldfQ==
 -->
