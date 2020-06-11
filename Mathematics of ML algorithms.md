@@ -333,15 +333,16 @@ Recall = TP/TP+FN
 More powerful way of supervised learning algos.  We know the sigmoid function in the logistic regression.  
 ![log reg](https://i.imgur.com/yc044k0.png)
 
+SVM optimizes the $h_\theta(x)$ term
 **Large margin classification**
 
 ## Week 8 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Njg3NTU5ODQsLTE2MzI3NTEzMzQsLT
-k4Mjc2NTI4MiwtOTk4ODY5MDcwLC0xMjc2NTkzMzk1LC0xMTEx
-MDk3MDk5LC0xNTAyMDI2NDc2LDMwMzQ5NzA1MCwtMjExNDQ1MT
-E5MCwxMjA3OTk3NzUxLDk1NTg1NDM1NiwtMTY3NjQ0OTcyNCwt
-MzAzNjI0NTE1LDE0MTM3MjE0NDksMTA2MTE4OTk3MSw4MzI2MT
-Y4MzksMTA5MTE5MjQwOCwtMTIxMzgxMjMxNCwyOTc3ODU1MzYs
-MzIwMjkwNjc5XX0=
+eyJoaXN0b3J5IjpbLTQzMTY1MzE2OSwtMTg2ODc1NTk4NCwtMT
+YzMjc1MTMzNCwtOTgyNzY1MjgyLC05OTg4NjkwNzAsLTEyNzY1
+OTMzOTUsLTExMTEwOTcwOTksLTE1MDIwMjY0NzYsMzAzNDk3MD
+UwLC0yMTE0NDUxMTkwLDEyMDc5OTc3NTEsOTU1ODU0MzU2LC0x
+Njc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQxMzcyMTQ0OSwxMDYxMT
+g5OTcxLDgzMjYxNjgzOSwxMDkxMTkyNDA4LC0xMjEzODEyMzE0
+LDI5Nzc4NTUzNl19
 -->
