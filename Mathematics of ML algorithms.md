@@ -300,9 +300,8 @@ Prioritizing workflow heuritiscs
  - Run the first algo, check the errors (traing set categorized incorrectly and find what new features would have helped and incorporate them in the algo - **PDCA like algorithm** 
 ![learn from errors](https://i.imgur.com/dbYR5a9.png)
 - 
-## Week 7 notes
 
-## Week 8 
+
 Building spam classifier 
 
  - Honeypot project -  emails addresses created and distributed publicly, with the intention that it gets into spams email list; to accumulate spam emails and use them as training data ! 
@@ -328,12 +327,16 @@ Recall = TP/TP+FN
 **Large data sets**
 
 ![](https://i.imgur.com/KiRXsaL.png)
+
+## Week 7 notes
+
+## Week 8 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0Mzc4NzgzNiwtOTgyNzY1MjgyLC05OT
-g4NjkwNzAsLTEyNzY1OTMzOTUsLTExMTEwOTcwOTksLTE1MDIw
-MjY0NzYsMzAzNDk3MDUwLC0yMTE0NDUxMTkwLDEyMDc5OTc3NT
-EsOTU1ODU0MzU2LC0xNjc2NDQ5NzI0LC0zMDM2MjQ1MTUsMTQx
-MzcyMTQ0OSwxMDYxMTg5OTcxLDgzMjYxNjgzOSwxMDkxMTkyND
-A4LC0xMjEzODEyMzE0LDI5Nzc4NTUzNiwzMjAyOTA2NzksMTMy
-MzI5ODE3OF19
+eyJoaXN0b3J5IjpbLTE2MzI3NTEzMzQsLTk4Mjc2NTI4MiwtOT
+k4ODY5MDcwLC0xMjc2NTkzMzk1LC0xMTExMDk3MDk5LC0xNTAy
+MDI2NDc2LDMwMzQ5NzA1MCwtMjExNDQ1MTE5MCwxMjA3OTk3Nz
+UxLDk1NTg1NDM1NiwtMTY3NjQ0OTcyNCwtMzAzNjI0NTE1LDE0
+MTM3MjE0NDksMTA2MTE4OTk3MSw4MzI2MTY4MzksMTA5MTE5Mj
+QwOCwtMTIxMzgxMjMxNCwyOTc3ODU1MzYsMzIwMjkwNjc5LDEz
+MjMyOTgxNzhdfQ==
 -->
