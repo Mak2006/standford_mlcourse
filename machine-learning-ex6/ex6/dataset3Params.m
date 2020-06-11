@@ -23,8 +23,18 @@ sigma = 0.3;
 %        mean(double(predictions ~= yval))
 %
 
-
-
+%{
+For both C and , we
+suggest trying values in multiplicative steps (e.g., 0:01; 0:03; 0:1; 0:3; 1; 3; 10; 30).
+Note that you should try all possible pairs of values for C and  (e.g., C = 0:3
+and  = 0:1).
+%}
+for c = [0.01 0.03 0.1 0.3 1 3 10 30]
+  for sigma = [0.01 0.03 0.1 0.3 1 3 10 30]
+    
+  endfor
+endfor
+  
 
 
 
