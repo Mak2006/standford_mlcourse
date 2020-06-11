@@ -21,7 +21,7 @@ sim = 0;
 %>> size (sigma)   1   1
 % this is the equation given in the ex6.pdf 
 
-sim = exp(-1 * (1)/2*sigma^2)
+sim = exp(-1 * (sum(x1-x2).^2)/(2*sigma^2))
 
 
 
