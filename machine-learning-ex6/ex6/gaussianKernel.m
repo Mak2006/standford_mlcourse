@@ -19,7 +19,10 @@ sim = 0;
 %>> size(x1)       1   3
 %>> size (x2)      1   3
 %>> size (sigma)   1   1
-%
+% this is the equation given in the ex6.pdf 
+
+sim = exp(-1 * (1)/2*sigma^2)
+
 
 
 
