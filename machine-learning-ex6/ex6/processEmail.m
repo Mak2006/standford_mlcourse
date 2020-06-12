@@ -104,7 +104,13 @@ exists, you should add the index of the word into the word indices variable.
 If the word does not exist, and is therefore not in the vocabulary, you can
 skip the word.
 %}
-
+    len = length(vocabList)
+    for i = 1:len
+      if strcmp(str, vocabList{i})
+        word_indices = [word_indices; i];
+        break
+      end
+    end
 
 
 
