@@ -32,8 +32,8 @@ and  = 0:1).
 
 errormin = 10000 # assuming a large error
 for c = [0.01 0.03 0.1 0.3 1 3 10 30]
-  for sigma = [0.01 0.03 0.1 0.3 1 3 10 30]
-     modl = svmTrain(X, y, c, @(x1, x2) gaussianKernel(x1, x2, sigma));
+  for sigmaVal = [0.01 0.03 0.1 0.3 1 3 10 30]
+     modl = svmTrain(X, y, c, @(x1, x2) gaussianKernel(x1, x2, sigmaVal));
      predictions = svmPredict(modl, Xval);
      
      % going over to the mean
@@ -44,14 +44,14 @@ for c = [0.01 0.03 0.1 0.3 1 3 10 30]
      if err < errormin    
        errormin = err;
        cmin = c
-       sigmin = sigma
+       sigmin = sigmaVal
      end
   endfor
 endfor
   
 % use the cmin and sigmin to return the result
 C = c(cmin);
-sigma = sigma(sigmin);
+sigma = sigmaVal(sigmin);
 
 
 
