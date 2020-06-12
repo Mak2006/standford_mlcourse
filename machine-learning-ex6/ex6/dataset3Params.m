@@ -42,7 +42,7 @@ for c = [0.01 0.03 0.1 0.3 1 3 10 30]
      
      % get the minimum
      if err < errormin    
-       errormin = err;
+       errormin = err
        cmin = c
        sigmin = sigmaVal
      end
