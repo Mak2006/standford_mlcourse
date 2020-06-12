@@ -96,7 +96,14 @@ while ~isempty(email_contents)
     % Note: You can use strcmp(str1, str2) to compare two strings (str1 and
     %       str2). It will return 1 only if the two strings are equivalent.
     %
-
+%{
+In the code, you are given a string str which is a single word
+from the processed email. You should look up the word in the vocabulary
+list vocabList and nd if the word exists in the vocabulary list. If the word
+exists, you should add the index of the word into the word indices variable.
+If the word does not exist, and is therefore not in the vocabulary, you can
+skip the word.
+%}
 
 
 
