@@ -29,6 +29,8 @@ suggest trying values in multiplicative steps (e.g., 0:01; 0:03; 0:1; 0:3; 1; 3;
 Note that you should try all possible pairs of values for C and  (e.g., C = 0:3
 and  = 0:1).
 %}
+
+errormin = 10000 # assuming a large error
 for c = [0.01 0.03 0.1 0.3 1 3 10 30]
   for sigma = [0.01 0.03 0.1 0.3 1 3 10 30]
      modl = svmTrain(X, y, c, @(x1, x2) gaussianKernel(x1, x2, sigma));
@@ -38,7 +40,12 @@ for c = [0.01 0.03 0.1 0.3 1 3 10 30]
      %  Note: You can compute the prediction error using 
      err =  mean(double(predictions ~= yval))
      
-     
+     % get the minimum
+     if err < errormin    
+       errormin = err;
+       cmin = c
+       sigmin = sigma
+     end
   endfor
 endfor
   
