@@ -51,7 +51,7 @@ x = zeros(n, 1);
 % this is trivial loop over the wordindices and set it as 1 in x 
   len = length(word_indices)
   for i = 1:len
-    %set the value
+    %setting  x(i) = 1 when word i is present in the email.
     x(word_indices(i)) = 1;
   endfor
 
