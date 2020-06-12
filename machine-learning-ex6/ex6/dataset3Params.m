@@ -50,8 +50,8 @@ for c = [0.01 0.03 0.1 0.3 1 3 10 30]
 endfor
   
 % use the cmin and sigmin to return the result
-C = c(cmin);
-sigma = sigmaVal(sigmin);
+C = cmin
+sigma = sigmin
 
 
 
