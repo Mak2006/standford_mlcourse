@@ -31,6 +31,13 @@ and  = 0:1).
 %}
 for c = [0.01 0.03 0.1 0.3 1 3 10 30]
   for sigma = [0.01 0.03 0.1 0.3 1 3 10 30]
+     modl = svmTrain(X, y, c, @(x1, x2) gaussianKernel(x1, x2, sigma));
+     predictions = svmPredict(modl, Xval);
+     
+     % going over to the mean
+     %  Note: You can compute the prediction error using 
+     err =  mean(double(predictions ~= yval))
+     
      
   endfor
 endfor
