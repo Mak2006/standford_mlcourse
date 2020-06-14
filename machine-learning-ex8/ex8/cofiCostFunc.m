@@ -34,7 +34,7 @@ Theta_grad = zeros(size(Theta));
 
 % to return the cost function as in page 9 of the pdf
     D = (X * Theta' - Y).*R
-    
+    J = square(D)
 
 
 %
@@ -66,3 +66,8 @@ Theta_grad = zeros(size(Theta));
 grad = [X_grad(:); Theta_grad(:)];
 
 end
+
+
+function [s] = square(Z)
+  s = sum(sum(Z.^2))
+endfunction
