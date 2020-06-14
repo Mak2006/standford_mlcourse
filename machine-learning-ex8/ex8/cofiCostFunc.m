@@ -31,6 +31,11 @@ Theta_grad = zeros(size(Theta));
 %        Y - num_movies x num_users matrix of user ratings of movies
 %        R - num_movies x num_users matrix, where R(i, j) = 1 if the 
 %            i-th movie was rated by the j-th user
+
+% to return the cost function as in page 9 of the pdf
+    D = (X * Theta' - Y)
+
+
 %
 % You should set the following variables correctly:
 %

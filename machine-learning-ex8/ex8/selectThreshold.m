@@ -24,10 +24,11 @@ for epsilon = min(pval):stepsize:max(pval)
     %       of 0's and 1's of the outlier predictions
 
 % F1, PREC, recall formules are simple ratios. 
+%{  non need to init  
     tp = 1
     fn = 1
     fp = 1
-    
+%}  
     prediction = (pval < epsilon); 
 %{
 tp is the number of true positives: the ground truth label says it's an
@@ -39,15 +40,15 @@ anomaly, but our algorithm incorrectly classied it as not being anoma-
 lous.
 %}
 
-    tp = sum((prediction == 1) &(yval == 1))    % case is 1 and pred is 1
-    tn = sum((prediction == 0) & (yval ==0))    % case is 0 and pred also is 0
-    fp = sum((prediction ==1) & (yval==0))  % pred is 1 while acutall it is not 
-    fn = sum((prediction == 0)& (yval ==1)) % pred is -ve while actualy it was 1  
+    tp = sum((prediction == 1) &(yval == 1)) ;   % case is 1 and pred is 1
+    tn = sum((prediction == 0) & (yval ==0));    % case is 0 and pred also is 0
+    fp = sum((prediction ==1) & (yval==0));  % pred is 1 while acutall it is not 
+    fn = sum((prediction == 0)& (yval ==1)); % pred is -ve while actualy it was 1  
     
-    recall = tp/(tp+fn)
-    prec =tp/(tp + fp)
+    recall = tp/(tp+fn);
+    prec =tp/(tp + fp);
 
-    F1 = 2 *prec*recall/(prec + recall)
+    F1 = 2 *prec*recall/(prec + recall);
 
 
 
