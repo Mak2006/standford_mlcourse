@@ -33,7 +33,7 @@ Theta_grad = zeros(size(Theta));
 %            i-th movie was rated by the j-th user
 
 % to return the cost function as in page 9 of the pdf
-    D = (X * Theta' - Y)
+    D = (X * Theta' - Y).*R
 
 
 %
