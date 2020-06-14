@@ -24,10 +24,10 @@ sigma2 = zeros(n, 1);
 % We try the vector impl
 
 
-mu = (1/m) sum(X)
-sigsq = (1/m) sum(X-mu).^2
+mu = (1/m) *sum(X)
+sigsq = (1/m) *sum((X-mu).^2)
 
-
+sigma2 =sigsq
 
 
 
