@@ -34,6 +34,7 @@ Theta_grad = zeros(size(Theta));
 
 % to return the cost function as in page 9 of the pdf
     D = (X * Theta' - Y).*R
+    
 
 
 %
